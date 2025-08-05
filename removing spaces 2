@@ -1,0 +1,13 @@
+string name = "SH R oU  k";
+int namesize = size(name);
+
+for (int i = 0; i < namesize; i++)
+{
+	if (isspace(name[i]))
+	{
+
+		continue;
+	}
+	cout << name[i];
+
+}
