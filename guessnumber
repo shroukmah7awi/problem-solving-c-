@@ -1,0 +1,24 @@
+int guessnumber =8 ;
+int times = 0;
+cout << "enter number: ";
+while (true)
+{
+	int usernumber;
+	cin >> usernumber;
+
+	if (usernumber == guessnumber)
+	{
+		cout << "win";
+		break;
+	}
+	else
+	{
+		cout << "wrong"
+
+			<<endl;
+		times++;
+	}
+	if (times == 3)
+	{
+		break;
+	}
