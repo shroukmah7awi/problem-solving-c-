@@ -1,0 +1,16 @@
+int a;
+double b = 20.5;
+a = b;
+cout << a << endl;
+cout << sizeof(a) <<"\n";
+			   cout << "================================================"<<endl;
+			   char c = 'c';
+			   int s = 3;
+			   cout << int(c) << endl;
+			   cout << c + s<<endl;
+
+			   cout << "===================================================" << endl;
+			   int d = 20;
+			   double e = 26.5;
+			   cout << d + (int)e << endl;
+			   cout << sizeof(d + (int)e) << endl;
