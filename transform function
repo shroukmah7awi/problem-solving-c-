@@ -1,0 +1,10 @@
+vector <int> numbers{ 1,-2,3,-4,5,-6 };
+transform(numbers.begin(), numbers.end(), numbers.begin(), [] (int x)
+{
+		return -x;
+
+});
+for (int i : numbers)
+	{
+	cout << i << " ";
+	}
