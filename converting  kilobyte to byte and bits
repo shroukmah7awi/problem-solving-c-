@@ -1,0 +1,10 @@
+cout<< "Enter number of kilobyte: \n";
+int num_kilobyte;
+cin >> num_kilobyte;
+
+cout << "number of kilobite: "<<num_kilobyte<<"\n";
+int num_bite = num_kilobyte * 1024;
+cout << "number of bites: "<<num_bite
+	<<"\n";
+int num_bit = num_bite * 1024;
+cout << "number of bit: "<<num_bit<<"\n";
