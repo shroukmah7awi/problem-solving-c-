@@ -1,0 +1,14 @@
+string s;
+cin >> s;
+string temp = "";
+
+
+for (int i = 0; i < s.size(); i++)
+{
+	if (s[i]!= ' ')
+	{
+		temp += s[i];
+	}
+
+	cout << temp;
+}
