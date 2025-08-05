@@ -1,0 +1,41 @@
+  string operation;
+
+  cout << "choose the operation(+,-,*,/)\n";
+
+  cin >> operation;
+
+  int num_1;
+  cin >> num_1;
+
+  int num_2;
+  cin >> num_2;
+
+
+  if (operation == "+" )
+  {
+   cout << num_1 + num_2<<endl;
+  }
+
+
+
+else if (operation == "-")
+  {
+   cout << num_1 - num_2 << endl;
+  }
+
+else   if (operation == "*")
+  {
+   cout << num_1 * num_2 << endl;
+  }
+
+
+else  if (operation == "/")
+  {
+   cout << num_1 / num_2 << endl;
+  }
+
+
+else
+  {
+   cout << "an uncorrect operation";
+  }
