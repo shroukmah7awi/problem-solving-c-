@@ -1,0 +1,5 @@
+int pricefor1piece = 3;
+int numberofmango;
+cin >> numberofmango;
+	int cost =( numberofmango - (numberofmango / 3))*3;
+	cout <<  cost;
