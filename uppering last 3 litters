@@ -1,0 +1,18 @@
+string name = "SHRouk";
+int namesize = size(name);
+
+for (int i = 0; i < namesize; i++)
+{
+   cout<<	name[i];
+}
+cout << "\n";
+
+
+for (int i = 0; i < namesize - 3; i++)
+{
+	cout <<char(tolower( name[i]));
+}
+for (int i = namesize - 3; i < namesize; i++)
+{
+	cout << char(toupper(name[i]));
+}
