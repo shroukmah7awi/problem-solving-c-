@@ -1,0 +1,13 @@
+
+int nums[]{ 10,20,30 };
+int *ptr = &nums[0];
+cout << "index with value: " << nums[0]<<endl;
+cout << "index with pointer: " << *ptr<<endl;
+
+
+cout << "index with adress: " << &nums[0]<<endl;
+cout << "index with adress pointer: " << ptr<<endl;
+
+
+cout << "index with adress: " << &nums[1] << endl;
+cout << "index with adress pointer: " << ptr+1<<endl;
