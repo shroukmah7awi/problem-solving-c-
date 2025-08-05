@@ -1,0 +1,27 @@
+
+void start(string name)
+{
+	//cout << "your name: " << name;
+	 
+	if (name == "shrouk")
+	{
+		cout << name << " medhat";
+	}
+	else if (name == "hana")
+	{
+		cout << name << " mohamed";
+
+	}
+	else {
+		cout << "doesn't exict";
+	}
+
+}
+
+int main()
+{
+	string name;
+	cin >> name;
+
+		start(name);
+}
